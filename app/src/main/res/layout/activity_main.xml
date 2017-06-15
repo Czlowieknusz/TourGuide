@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.android.tourguide.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:text="@string/explore_sieradz"
+        android:textColor="@android:color/black"
+        android:textSize="36sp" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Festivals">
+
+        <TextView
+            android:id="@+id/festivals"
+            style="@style/categoryStyle"
+            android:text="@string/festivals" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Architecture">
+
+        <TextView
+            android:id="@+id/architecture"
+            style="@style/categoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/architecture" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Activities">
+
+        <TextView
+            android:id="@+id/news"
+            style="@style/categoryStyle"
+            android:text="@string/news" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Food">
+
+        <TextView
+            android:id="@+id/food"
+            style="@style/categoryStyle"
+            android:text="@string/food" />
+    </FrameLayout>
+</LinearLayout>

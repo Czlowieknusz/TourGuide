@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <string name="festivals">Festivals</string>
+    <string name="news">News</string>
+    <string name="architecture">Architecture</string>
+    <string name="explore_sieradz">Explore Sieradz</string>
+    <string name="food">Food</string>
+</resources>
